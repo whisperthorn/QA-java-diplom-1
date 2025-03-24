@@ -35,12 +35,12 @@ public class BunParamTest {
 
     @Test
     public void testGetName() {
-       assertEquals(bunName, bun.getName());
+       assertEquals("Имя должно совпадать", bunName, bun.getName());
     }
 
     @Test
     public void testGetPrice() {
-       assertEquals(bunPrice, bun.getPrice(),0.01f);
+       assertEquals("Цена должна совпадать",bunPrice, bun.getPrice(),0.01f);
     }
 
 }
